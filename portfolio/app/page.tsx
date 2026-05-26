@@ -182,6 +182,13 @@ export default function Home() {
             <a href="#projects" className="bg-blue-500 hover:bg-blue-600 px-7 py-3 rounded-xl font-semibold">
               View Projects
             </a>
+            <a
+             href="/vaibhav-magoo-resume.pdf"
+             download
+             className="bg-slate-800 hover:bg-slate-700 border border-slate-600 px-7 py-3 rounded-xl font-semibold"
+            >
+             Download Resume
+            </a>
             <a href="#contact" className="border border-slate-500 hover:border-blue-400 px-7 py-3 rounded-xl font-semibold">
               Contact Me
             </a>
