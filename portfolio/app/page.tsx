@@ -76,7 +76,7 @@ const skills = [
   {
     title: "Programming & Data",
     items:
-      "Python, SQL, MySQL, CTEs, R, ETL, NLP, TF-IDF, Machine Learning, SVM, Neural Networks",
+      "Python, SQL, MySQL, CTEs, R, TypeScript, ETL, NLP, TF-IDF, Machine Learning, SVM, Neural Networks, JavaScript, React.js, Next.js, Tailwind CSS",
   },
   {
     title: "Finance",
