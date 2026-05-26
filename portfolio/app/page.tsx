@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 const workExperience = [
   {
@@ -145,8 +146,9 @@ const projects = [
 ];
 
 export default function Home() {
+  const [darkMode, setDarkMode] = useState(true);
   return (
-    <main className="min-h-screen bg-slate-950 text-white">
+    <main className={darkMode ? "min-h-screen bg-slate-950 text-white" : "min-h-screen bg-white text-slate-950"}>
       <section className="max-w-6xl mx-auto px-6 py-10">
         <nav className="flex justify-between items-center py-6 border-b border-slate-800">
           <h2 className="text-xl font-bold">Portfolio</h2>
@@ -158,6 +160,12 @@ export default function Home() {
             <a href="#projects" className="hover:text-blue-400">Projects</a>
             <a href="#contact" className="hover:text-blue-400">Contact</a>
           </div>
+          <button 
+            onClick={() => setDarkMode(!darkMode)}
+            className="rounded-xl border border-slate-500 px-4 py-2 text-sm font-semibold hover:border-blue-400"
+          >
+            {darkMode ? "Day Mode" : "Night Mode"}
+          </button>
         </nav>
 
         <section className="py-20 text-center">
