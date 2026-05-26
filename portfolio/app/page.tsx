@@ -86,7 +86,7 @@ const skills = [
   {
     title: "BI & Visualization",
     items:
-      "Power BI, Tableau, Streamlit, Semantic Data Modeling, KPI Reporting, Snowflake",
+      "Power BI, Tableau, Streamlit, Lucidchart, Semantic Data Modeling, KPI Reporting, Snowflake",
   },
   {
     title: "Tools & Platforms",
