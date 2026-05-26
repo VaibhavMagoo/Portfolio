@@ -183,7 +183,7 @@ export default function Home() {
               View Projects
             </a>
             <a
-             href="/vaibhav-magoo-resume.pdf"
+             href="/vaibhav_magoo--resume.pdf"
              download
              className="bg-slate-800 hover:bg-slate-700 border border-slate-600 px-7 py-3 rounded-xl font-semibold"
             >
