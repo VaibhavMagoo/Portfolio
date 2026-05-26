@@ -124,6 +124,20 @@ const projects = [
     description:
       "Developed SQL-based analytical solutions to evaluate solar energy operations and support business decision-making. Conducted data analysis on energy production, consumption, battery utilization, and grid transactions to identify performance trends and operational insights using MySQL.",
   },
+  {
+    title: "U.K Portfolio Management",
+    tool: "Excel, Bloomberg Terminal",
+    file: "/Portfolio Management.pdf",
+    description:
+      "Developed a UK equities investment portfolio using portfolio theory, efficient frontier analysis, CAPM concepts, covariance matrices, Sharpe ratio evaluation, and Bloomberg PORT analytics. Conducted sector-based equity analysis focused on post-Brexit market opportunities, risk diversification, tracking error analysis, and value investing strategies across FTSE 100 companies.",
+  },
+  {
+    title: "Financial Analysis of Intertek Group Plc",
+    tool: "Excel",
+    file: "/Intertek.pdf",
+    description:
+      "Conducted a comprehensive financial analysis and valuation of Intertek Group Plc using profitability, liquidity, leverage, efficiency, and valuation metrics. Applied financial models including Dividend Discount Model, Earnings & Investment Model, Free Cash Flow Valuation, CAPM, Beta analysis, ABHR strategy, and peer benchmarking against FTSE 100 competitors to assess the company’s financial position and investment potential.",
+  },
 ];
 
 export default function Home() {
