@@ -99,24 +99,28 @@ const projects = [
   {
     title: "Vehicle Population Trends and Infrastructure Planning",
     tool: "Python",
+    file: "/Slides.pptx",
     description:
       "Conducted data cleaning, transformation, analysis, and visualization using Python to examine Maharashtra’s vehicle population trends and identify growth opportunities in private and commercial transport markets. Developed predictive insights to support sustainable mobility strategies, including EV adoption, public transportation, regional disparity analysis, and infrastructure planning.",
   },
   {
     title: "Healthcare Analytics & Predictive Modeling",
     tool: "R",
+    file: "/Medical Insurance Cost.pdf",
     description:
       "Built predictive models in R to analyze medical insurance costs using regression and classification techniques. Performed data cleaning, feature engineering, exploratory data analysis, and visualization to identify key cost drivers such as smoking, BMI, age, and demographic factors. Developed and compared Logistic Regression, LDA, KNN, Ridge, and Lasso models.",
   },
   {
     title: "SMS Based Cyber Attacks",
     tool: "R",
+    file: "/Decoding Deception Identifying SMS-Based Cyber Attacks.pptx",
     description:
       "Developed a machine learning-based SMS fraud detection system in R to classify ham, spam, and smishing messages using NLP and predictive analytics. Performed data cleaning, text preprocessing, TF-IDF vectorization, feature engineering, and exploratory data analysis on 4,700+ SMS records. Built and evaluated Support Vector Machine and Neural Network models, with the neural network achieving over 92% accuracy in detecting fraudulent SMS activity.",
   },
   {
     title: "Solar Energy Data Analysis",
     tool: "SQL",
+    file: "/Vaibhav Magoo_Solution.xlsx",
     description:
       "Developed SQL-based analytical solutions to evaluate solar energy operations and support business decision-making. Conducted data analysis on energy production, consumption, battery utilization, and grid transactions to identify performance trends and operational insights using MySQL.",
   },
@@ -239,6 +243,14 @@ export default function Home() {
                   {project.title}
                 </h3>
                 <p className="text-gray-300 leading-7">{project.description}</p>
+                
+                  <a
+                    href={project.file}
+                    download
+                    className="inline-block mt-5 bg-blue-500 hover:bg-blue-600 px-5 py-3 rounded-xl font-semibold text-white"
+                  >
+                    Download Project File
+                  </a>
               </Card>
             ))}
           </div>
