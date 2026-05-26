@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 const workExperience = [
   {
     company: "Fowler College of Business",
@@ -338,8 +342,15 @@ function Section({
 
 function Card({ children }: { children: React.ReactNode }) {
   return (
-    <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500 transition">
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      whileHover={{ scale: 1.03 }}
+      transition={{ duration: 0.4 }}
+      viewport={{ once: true }}
+      className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500 transition"
+    >
       {children}
-    </div>
+    </motion.div>
   );
 }
