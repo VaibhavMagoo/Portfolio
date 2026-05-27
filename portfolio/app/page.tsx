@@ -6,7 +6,7 @@ import { useState } from "react";
 const workExperience = [
   {
     company: "Fowler College of Business",
-    role: "Research Assistant, Business Analysis & Data",
+    role: "Research Assistant, Financial & Data Analytics",
     date: "09/2024 – 05/2026 | San Diego, USA",
     bullets: [
       "Deployed Claude and GitHub Copilot as primary development tools to build production-ready MySQL pipelines, Python ETL scripts, DAX logic, and web-based reporting interfaces, reducing report revision cycles by 30%.",
@@ -16,7 +16,7 @@ const workExperience = [
   },
   {
     company: "Admantium Advisory Group",
-    role: "Business Analyst",
+    role: "Financial Business Analyst",
     date: "03/2021 – 03/2024 | Delhi, India",
     bullets: [
       "Conducted discovery sessions and as-is analysis to map a 14-step manual reporting process across a MySQL-backed client onboarding portal; facilitated JAD sessions with 10+ stakeholders using MoSCoW prioritization, translating outcomes into BRDs, FSDs, and Visio process flow diagrams.",
@@ -26,7 +26,7 @@ const workExperience = [
   },
   {
     company: "Mphasis UK Limited",
-    role: "Business Analyst",
+    role: "Business Analyst, Strategy & Finance",
     date: "09/2019 – 06/2020 | United Kingdom",
     bullets: [
       "Applied MOST analysis to map current-state financial user journeys, identify process bottlenecks, and encode future-state logic into BRDs and functional specifications.",
@@ -35,7 +35,7 @@ const workExperience = [
   },
   {
     company: "Sun Pharma",
-    role: "Business Analyst Intern",
+    role: "Financial Analyst Intern",
     date: "02/2018 – 09/2018 | Delhi, India",
     bullets: [
       "Conducted operational and financial data analysis across business functions using Excel and structured query methods to surface cost inefficiencies and process gaps.",
