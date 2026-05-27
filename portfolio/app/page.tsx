@@ -7,7 +7,7 @@ const workExperience = [
   {
     company: "Fowler College of Business",
     role: "Research Assistant, Financial & Data Analytics",
-    date: "09/2024 – 05/2026 | San Diego, USA",
+    date: "09/2024 – Present | San Diego, USA",
     bullets: [
       "Deployed Claude and GitHub Copilot as primary development tools to build production-ready MySQL pipelines, Python ETL scripts, DAX logic, and web-based reporting interfaces, reducing report revision cycles by 30%.",
       "Engineered AI/ML-assisted Python ETL pipelines to extract, transform, and standardize cohort-level student grade and enrollment datasets, replacing manual weekly exports with automated scheduled outputs.",
