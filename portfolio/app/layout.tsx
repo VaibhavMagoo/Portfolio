@@ -13,20 +13,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vaibhav Magoo Portfolio",
+  title: "",
 
   description:
     "MBA | MSc | PMP | CFA Level 1 | Business Analysis | Data Analytics",
 
   openGraph: {
-    title: "Vaibhav Magoo Portfolio",
+    title: "",
 
     description:
       "Business Analysis | Data Analytics | Financial Analytics",
 
     url: "https://vaibhavmagooportfolio.vercel.app/",
 
-    siteName: "Vaibhav Magoo Portfolio",
+    siteName: "",
 
     images: [
       {
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Vaibhav Magoo Portfolio",
+    title: "",
 
     description:
       "MBA | MSc | PMP | CFA Level 1",
