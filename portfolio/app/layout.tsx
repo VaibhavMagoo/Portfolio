@@ -33,7 +33,6 @@ export const metadata: Metadata = {
         url: "https://vaibhavmagooportfolio.vercel.app/Banner.jpg",
         width: 1200,
         height: 630,
-        alt: "Vaibhav Magoo Portfolio",
       },
     ],
 
