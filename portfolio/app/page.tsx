@@ -168,53 +168,53 @@ export default function Home() {
           </button>
         </nav>
 
-        <section 
-          className="py-32 text-center rounded-3xl mb-10 bg-cover bg-center relative overflow-hidden"
-          style={{
-            backgroundImage: "url('/Banner.jpg')",
-          }}
-        >
-          <div className="absolute inset-0 bg-black/60"></div>
+        <section className="py-20 text-center">
+  <img
+    src="/hero-banner.jpg"
+    alt="Portfolio banner"
+    className="w-full max-h-64 object-cover rounded-3xl mb-12 border border-slate-800"
+  />
 
-          <div className="relative z-10">
-           <p className="text-blue-300 font-semibold mb-4">
-            Business Analysis | Data Analytics | Financial Analytics
-           </p>
-          </div>
+  <p className="text-blue-400 font-semibold mb-4">
+    Business Analysis | Data Analytics | Financial Analytics
+  </p>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-5">
-            Vaibhav Magoo
-          </h1>
+  <h1 className="text-5xl md:text-7xl font-bold mb-5">
+    Vaibhav Magoo
+  </h1>
 
-          <h2 className="text-2xl md:text-3xl text-blue-400 font-semibold mb-8">
-            MBA | MSc | PMP | CFA Level 1
-          </h2>
+  <h2 className="text-2xl md:text-3xl text-blue-400 font-semibold mb-8">
+    MBA | MSc | PMP | CFA Level 1
+  </h2>
 
-          <p className="text-gray-300 max-w-4xl mx-auto leading-8 text-lg">
-            MBA graduate in Information Systems and a Project Management Professional
-            with hands-on experience engineering institutional data pipelines, building
-            analytical dashboards, and delivering reproducible reporting solutions.
-            Proficient in Python, R, SQL, Tableau, and Power BI. Proven ability to
-            translate complex data problems into scalable, documented analytics workflows
-            for both technical and non-technical stakeholders. Committed to data accuracy, governance, and delivering actionable business insights.
-          </p>
+  <p className="text-gray-300 max-w-4xl mx-auto leading-8 text-lg">
+    MBA graduate in Information Systems and a Project Management Professional
+    with hands-on experience engineering institutional data pipelines, building
+    analytical dashboards, and delivering reproducible reporting solutions.
+    Proficient in Python, R, SQL, Tableau, and Power BI. Proven ability to
+    translate complex data problems into scalable, documented analytics workflows
+    for both technical and non-technical stakeholders. Committed to data accuracy,
+    governance, and delivering actionable business insights.
+  </p>
 
-          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#projects" className="bg-blue-500 hover:bg-blue-600 px-7 py-3 rounded-xl font-semibold">
-              View Projects
-            </a>
-            <a
-             href="/Vaibhav_Magoo--Resume.pdf"
-             download
-             className="bg-slate-800 hover:bg-slate-700 border border-slate-600 px-7 py-3 rounded-xl font-semibold"
-            >
-             Download Resume
-            </a>
-            <a href="#contact" className="border border-slate-500 hover:border-blue-400 px-7 py-3 rounded-xl font-semibold">
-              Contact Me
-            </a>
-          </div>
-        </section>
+  <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+    <a href="#projects" className="bg-blue-500 hover:bg-blue-600 px-7 py-3 rounded-xl font-semibold">
+      View Projects
+    </a>
+
+    <a
+      href="/Vaibhav_Magoo--Resume.pdf"
+      download
+      className="bg-slate-800 hover:bg-slate-700 border border-slate-600 px-7 py-3 rounded-xl font-semibold"
+    >
+      Download Resume
+    </a>
+
+    <a href="#contact" className="border border-slate-500 hover:border-blue-400 px-7 py-3 rounded-xl font-semibold">
+      Contact Me
+    </a>
+  </div>
+</section>
 
         <Section id="education" title="Education">
           <div className="grid md:grid-cols-3 gap-6">
