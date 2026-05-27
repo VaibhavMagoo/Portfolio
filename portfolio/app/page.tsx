@@ -151,7 +151,11 @@ export default function Home() {
     <main className={darkMode ? "min-h-screen bg-slate-950 text-white" : "min-h-screen bg-white text-slate-950"}>
       <section className="max-w-6xl mx-auto px-6 py-10">
         <nav className="flex justify-between items-center py-6 border-b border-slate-800">
-          <h2 className="text-xl font-bold">Portfolio</h2>
+          <img
+           src="/Banner.jpg"
+           alt="Portfolio Logo"
+           className="h-12 w-auto rounded-lg object-cover"
+          />
           <div className="hidden md:flex gap-6 text-sm text-gray-300">
             <a href="#education" className="hover:text-blue-400">Education</a>
             <a href="#experience" className="hover:text-blue-400">Work</a>
@@ -169,10 +173,7 @@ export default function Home() {
         </nav>
 
         <section className="py-20 text-center">
-  <img
-    src="/Banner.jpg"
-    className="w-full max-h-64 object-cover rounded-3xl mb-12 border border-slate-800"
-  />
+ 
 
   <p className="text-blue-400 font-semibold mb-4">
     Business Analysis | Data Analytics | Financial Analytics
