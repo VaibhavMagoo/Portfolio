@@ -170,8 +170,7 @@ export default function Home() {
 
         <section className="py-20 text-center">
   <img
-    src="/hero-banner.jpg"
-    alt="Portfolio banner"
+    src="/Banner.jpg"
     className="w-full max-h-64 object-cover rounded-3xl mb-12 border border-slate-800"
   />
 
