@@ -168,10 +168,19 @@ export default function Home() {
           </button>
         </nav>
 
-        <section className="py-20 text-center">
-          <p className="text-blue-400 font-semibold mb-4">
+        <section 
+          className="py-32 text-center rounded-3xl mb-10 bg-cover bg-center relative overflow-hidden"
+          style={{
+            backgroundImage: "url('/Banner.jpg')",
+          }}
+        >
+          <div className="absolute inset-0 bg-black/60"></div>
+
+          <div className="relative z-10">
+           <p className="text-blue-300 font-semibold mb-4">
             Business Analysis | Data Analytics | Financial Analytics
-          </p>
+           </p>
+          </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-5">
             Vaibhav Magoo
